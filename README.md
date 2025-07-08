@@ -7,7 +7,12 @@
 ### Usage
 
 ```bash
-ts-node lib/index.ts -i <swagger-url> -o <output-file>
+
+yarn start -i <swagger-url> -o <output-file>
+
+#or
+
+tsx lib/index.ts -i <swagger-url> -o <output-file>
 ```
 ### Example
 
