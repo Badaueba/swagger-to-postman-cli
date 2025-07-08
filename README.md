@@ -8,7 +8,7 @@
 
 ```bash
 
-yarn start \ -i <swagger-url> -o <output-file>
+yarn start \ -i <swagger-url> \ -o <output-file>
 
 #or
 
