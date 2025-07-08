@@ -20,7 +20,7 @@ tsx lib/index.ts -i <swagger-url> -o <output-file>
 
 #add ?format=json to the url to get the swagger json:
 
-ts-node lib/index.ts -i https://petstore.swagger.io/v2?format=json \ -o petstore.json
+yarn start lib/index.ts -i https://petstore.swagger.io/v2?format=json \ -o petstore.json
 
 
 ```
@@ -30,7 +30,7 @@ ts-node lib/index.ts -i https://petstore.swagger.io/v2?format=json \ -o petstore
 
 #or -json at end of url (http://localhost:3000/api)
 
-ts-node lib/index.ts -i http://localhost:3000/api-json -o localhost-collection.json
+yarn start -i http://localhost:3000/api-json -o localhost-collection.json
 
 ```
 
