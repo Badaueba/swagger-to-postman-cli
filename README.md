@@ -8,11 +8,10 @@
 
 ```bash
 
-yarn start \ -i <swagger-url> \ -o <output-file>
+yarn start \ 
+  -i <swagger-url> \
+  -o <output-file>
 
-#or
-
-tsx lib/index.ts -i <swagger-url> -o <output-file>
 ```
 ### Example
 
@@ -20,7 +19,9 @@ tsx lib/index.ts -i <swagger-url> -o <output-file>
 
 #add ?format=json to the url to get the swagger json:
 
-yarn start \ -i https://petstore.swagger.io/v2?format=json \ -o petstore.json
+yarn start \ 
+ -i "https://petstore.swagger.io/v2?format=json" \ 
+ -o petstore.json
 
 
 ```
@@ -30,7 +31,9 @@ yarn start \ -i https://petstore.swagger.io/v2?format=json \ -o petstore.json
 
 -json at end of url (http://localhost:3000/api)
 
-yarn start \ -i http://localhost:3000/api-json \ -o localhost-collection.json
+yarn start \
+ -i "http://localhost:3000/api-json" \
+ -o localhost-collection.json
 
 ```
 
