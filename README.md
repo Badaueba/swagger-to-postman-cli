@@ -28,7 +28,8 @@ ts-node lib/index.ts -i https://petstore.swagger.io/v2?format=json -o petstore.j
 ```bash
 #For localhost use http://localhost:3000/swagger.json
 
-#or api-json at end of url 
+#or -json at end of url (http://localhost:3000/api)
+
 ts-node lib/index.ts -i http://localhost:3000/api-json -o localhost-collection.json
 
 ```
