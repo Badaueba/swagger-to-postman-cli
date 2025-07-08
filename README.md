@@ -26,9 +26,9 @@ yarn start \ -i https://petstore.swagger.io/v2?format=json \ -o petstore.json
 ```
 
 ```bash
-#For localhost use http://localhost:3000/swagger.json
+#For localhost use http://localhost:3000/<api_path>-json
 
-#or -json at end of url (http://localhost:3000/api)
+-json at end of url (http://localhost:3000/api)
 
 yarn start \ -i http://localhost:3000/api-json \ -o localhost-collection.json
 
